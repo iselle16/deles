@@ -1,0 +1,575 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face{
+	font-family: bodyfont;
+	src: url("../font/JosefinSans-Light.ttf"),
+		url("../font/JosefinSans-Light.eot"),
+		url("../font/JosefinSans-Light.woff");
+}
+@font-face{
+	font-family: titlefont;
+	src: url("../font/JosefinSans-SemiBold.ttf"),
+		url("../font/JosefinSans-SemiBold.eot"),
+		url("../font/JosefinSans-SemiBold.woff");
+}
+@font-face{
+	font-family: subhead;
+	src: url("../font/JosefinSans-Regular.ttf"),
+		url("../font/JosefinSans-Regular.eot"),
+		url("../font/JosefinSans-Regular.woff");
+}
+@font-face{
+	font-family: heading;
+	src: url("../font/JosefinSans-Bold.ttf"),
+		url("../font/JosefinSans-Bold.eot"),
+		url("../font/JosefinSans-Bold.woff");
+}
+body, p{
+	font-family: bodyfont;
+	font-size: 14pt;
+}
+h2{
+	font-family: titlefont;
+	font-size: 36pt;
+}
+h3{
+	font-family: titlefont;
+	font-size: 28pt;
+}
+h4{
+	font-family: titlefont;
+	font-size: 24pt;
+}
+h5{
+	font-family: subhead;
+	font-size: 20pt;
+}
+h6{
+	font-family: subhead;
+	font-size: 16pt;
+}
+
+
+		/*------------------------------------------------BUTTON------------------------------------------*/
+.btn-gr-big{
+	display: block;
+	text-align: center;
+	height: 40px;
+	width: 150px;
+	background-color: #646B4A;
+	color: #EEB972;
+	border-radius: 10px;
+	font-family: titlefont;
+	font-size: 16px;
+	text-decoration: none;
+	padding-top: 10px;
+	margin-left: 450px;
+	margin-top: 20px;
+	transition: all ease 0.4s;
+
+}
+.btn-gr-big:hover{
+	background-color: #EEB972;
+	color: #646B4A;
+	transition: all ease 0.4s;
+	text-decoration: none;
+
+}
+
+
+
+.btn-gr-sm{
+	display: block;
+	text-align: center;
+	height: 30px;
+	width: 150px;
+	border: #646B4A solid 2px;
+	color: #646B4A;
+	border-radius: 10px;
+	font-family: titlefont;
+	text-decoration: none;
+	padding-top: 1px;
+	margin-left: 200px;
+	margin-top: 20px;
+	transition: all ease 0.4s;
+
+}
+.btn-gr-sm:hover{
+	border: #9EA487 solid 2px;
+	color: #9EA487;
+	transition: all ease 0.4s;
+	text-decoration: none;
+}
+
+
+
+.btn-be-sm{
+	display: block;
+	text-align: center;
+	height: 30px;
+	width: 150px;
+	border: #EEB972 solid 2px;
+	color: #EEB972;
+	border-radius: 10px;
+	font-family: titlefont;
+	text-decoration: none;
+	padding-top: 1px;
+	margin-left: 200px;
+	margin-top: 20px;
+	transition: all ease 0.4s;
+}
+.btn-be-sm:hover{
+	border: #F4D4A8 solid 2px;
+	color: #F4D4A8;
+	transition: all ease 0.4s;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+		/*------------------------------------------------PRODUCT CART------------------------------------------------*/
+.pd-cart{
+	height: 340px;
+	background-color: #BBC1A6;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	padding: 0px;
+}
+.pd-cart h6, p{
+	color: #646B4A;
+	margin-left: 10px;
+	padding: 0px;
+	text-decoration: none;
+}
+.pd-cart a:hover{
+	text-decoration: none;
+}  
+.pd-cart h6{
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+.pd-cart p{
+	margin-bottom: 10px;
+}
+
+
+
+.btn-buy{
+	display: block;
+	text-align: center;
+	width: 65px;
+	height: 30px;
+	border: #646B4A solid 2px;
+	border-radius: 10px;
+	background-color: #646B4A;
+	color: #EEB972;
+	padding-top: 2px;
+	margin-left: 180px;
+	transition: all ease 0.5s;
+
+}
+.btn-buy:hover{
+	color: #646B4A;
+	background-color: #EEB972;
+	border: #EEB972 solid 2px;
+	transition: all ease 0.5s;
+}
+.btn-bgia{
+	font-family: subhead;
+	display: block;
+	float: left;
+	text-align: center;
+	color: #646B4A;
+	border-radius: 10px;
+	border: #646B4A solid 2px;
+	height: 30px;
+	width: 150px;
+	margin-left: 10px;
+	text-decoration: none;
+	transition: all ease 0.5s;
+}
+.btn-bgia:hover{
+	color: #EEB972;
+	background-color: #646B4A;
+	text-decoration: none;
+	transition: all ease 0.5s;
+}
+
+
+
+
+
+
+
+
+
+		/*------------------------------------------------HEADER------------------------------------------------*/
+#search{
+	width: 20%;
+	border: none;
+	background-color: #EEB972;
+	color: #474E2C;
+	display: block;
+	float: left;
+	margin-top: 15px;
+	outline: none;
+
+}
+#searchbox{
+	width: 80%;
+	background-color: #EEB972;
+	border-bottom: #646B4A solid 2px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	margin-top: 15px;
+	outline: none;
+
+}
+#bg-head{
+    background-color: rgba(238,185,114,1.00);
+    height: 60px;
+}
+
+#icon ul{
+	padding: 2px;
+	margin: 0px;
+	list-style-type: none;
+	
+}
+#icon ul li{
+	display: block;
+	float: right;
+	
+}
+#icon ul li a{
+	display: block;
+	text-decoration: none;
+	color: #474E2C;
+	margin-left: 30px;
+	margin-top: 15px;
+
+}
+
+
+
+		/*------------------------------------------------NAVIGATION------------------------------------------*/
+#bg-nav{
+	height: 60px;
+	background-color: rgba(71,78,44,1.00);
+	color: #F0C284;
+	padding-top: 5px;
+	position: sticky;
+	z-index: 6000;
+	top: 0px;
+
+}
+.nav-link{
+	font-family: subhead;
+	font-size: 18pt;
+	color: #EEB972;
+	margin-left: 40px;
+	transition: all ease 0.4s;
+}
+.nav-link:hover{
+	color: #9EA487;
+	transition: all ease 0.4s;
+
+}
+	
+		/*------------------------------------------------BANNER01------------------------------------------*/
+h1{
+	color: #BBC1A6;
+	font-family: heading;
+	text-align: center;
+	padding-top: 250px;
+}
+
+
+		/*------------------------------------------------ABOUT US------------------------------------------------*/
+#bg-gr1{
+	height: 500px;
+	background-color: #646B4A;
+	padding-top: 75px;
+}
+#vct{
+    color: #EEB972;
+	margin-bottom: 0px;
+}
+
+.body-be p {
+	font-family: bodyfont;
+	color: #F2CB96;	
+	margin-bottom: 10px;
+}
+
+		/*------------------------------------------NEW CLT------------------------------------------------------*/
+#bg-be1{
+	height: 500px;
+	background-color: #F4D4A8;
+}
+#bstm{
+	text-align: center;
+	color: #474E2C;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+#lps{
+	text-align: center;
+	color: #646B4A;
+	margin-top: 30px;
+}
+#dntc{
+	text-align: center;
+	color: #646B4A;
+}
+.body-gr p{
+	font-family: bodyfont;
+	color: #646B4A;
+	
+}
+
+		/*------------------------------------------ BEST SELLER ------------------------------------------*/
+#bg-b02{
+	background-color: #474E2C;
+	height: 500px;
+	border-radius: 100px;
+	border-left: #FFFFFF solid 10px;
+	border-right: #FFFFFF solid 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-top: 100px;
+}
+#bg-b02 h3{
+	position: absolute;
+	z-index: 900;
+	width: 200px;
+	text-align: center;
+	color: #BBC1A6;
+	top: 250px;
+	left: 50%;
+	margin-left: -75px;
+	display: none;
+	transition: all ease 0.5s;
+
+}
+#bg-b02:hover h3{
+	display: block;
+	transition: all ease 0.5s;
+
+}
+#bg-b02:hover #banner02{
+	opacity: 0.5;
+	transition: all ease 0.5s;
+}
+#bcn{
+	color: #474E2C;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+
+
+
+		/*------------------------------------------ MAU GACH TIEU BIEU ------------------------------------------*/
+#bg-gr2{
+	height: 500px;
+	background-color: #646B4A;
+	padding-top: 30px;
+	margin-top: 30px;
+}
+#mgtb{
+	color: #EEB972;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.h5-t{
+	color: #F0C284;
+	text-align: center;
+	margin-top: 10px;
+}
+.h6-t{
+	color: #F4D4A8;
+	text-align: center;
+	margin-top: 5px;
+}
+
+		/*------------------------------------------ DU AN TIEU BIEU ------------------------------------------*/
+#bg-be2{
+	height: 500px;
+	background-color: #F4D4A8;
+}
+#datb{
+	color: #474E2C;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+#img-pj{
+	margin-bottom: 20px;
+}
+.h-pj{
+	text-align: center;
+	color: #474E2C;
+	transition: all ease 0.4s;
+}
+.h-pj:hover{
+	color: #9EA487;
+	text-decoration: none;
+	transition: all ease 0.4s;
+
+}
+
+		/*------------------------------------------------ FOOTER------------------------------------------------*/
+#bg-foot{
+	background-color: #474E2C;
+	height: 380px;
+}
+#icon-foot ul{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+	
+}
+#icon-foot ul li{
+	display: block;
+	float: left;
+	
+}
+#icon-foot ul li a{
+	display: block;
+	text-decoration: none;
+	color: #F2CB96;
+	margin-left: 45px;
+	margin-top: 30px;
+	transition: all ease 0.5s;
+
+}
+#icon-foot ul li a:hover{
+	color: #ADB396;
+	transition: all ease 0.5s;
+
+}
+
+
+
+
+#foot1{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#dk{
+	
+	font-family: subhead;
+	width: 30%;
+	height: 40px;
+	background-color: #BBC1A6;
+	border-left: none;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-right: #F2CB96 solid 2px;
+	border-top: #F2CB96 solid 2px;
+	border-bottom: #F2CB96 solid 2px;
+	color: #646B4A;
+	display: block;
+	float: right;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	padding-top: 5px;
+	padding-left: 4px;
+	outline: none;
+
+}
+#email{
+	font-family: subhead;
+	background-color: #F4D4A8;
+	color: #646B4A;
+	height: 40px;
+	width: 70%;
+	border-right: none;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+	border-left: #EEB972 solid 2px;
+	border-top: #EEB972 solid 2px;
+	border-bottom: #EEB972 solid 2px;
+	margin-top: 70px;
+	padding-left: 8px;
+	outline: none;
+
+}
+
+
+
+
+.h-foot{
+	color: #EEB972;
+	margin-top: 60px;
+	margin-bottom: 10px;
+}
+.nav-link-f{
+	font-family: subhead;
+	color: #EEB972;
+	padding-bottom: 20px;
+	transition: all ease 0.5s;
+}
+.nav-link-f:hover{
+	text-decoration: none;
+	color: #9EA487;
+	transition: all ease 0.5s;
+
+}
+.footer-p ul{
+	padding: 0px;
+	margin: 0px;
+}
+.footer-p ul li{
+	list-style-type: none;
+	display: block;
+	float: left;
+	font-family: subhead;
+	color: #EEB972;
+	padding-bottom: 15px;
+	padding-left: 0px;
+
+}
+
+.nav-item-f{
+	padding-bottom: 10px;
+}
+
+
+
+		/*------------------------------------------------ COPYRIGHT------------------------------------*/
+#bg-cr{
+	background-color: #393E23;
+	height: 70px;
+	
+}
+#cpright{
+	color: #F2CB96;
+	text-align: center;
+	margin-top: 30px;
+	
+
+}
+
+
+
+
+
+
+
+
+
